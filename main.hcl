@@ -1,5 +1,5 @@
 resource "lab" "main" {
-  title       = "Something of a title"
+  title       = "Something of a titlefef"
   description = "Outline the lab's learning objectives, topics, and prerequisites."
 
   layout = resource.layout.single_panel
