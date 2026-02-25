@@ -1,7 +1,3 @@
-resource "layout" "single_panel" {
-  column {}
-}
-
 resource "lab" "main" {
   title       = "sadasdasdasdsada"
   description = "De"
