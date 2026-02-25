@@ -36,6 +36,6 @@ resource "secret" "SUPER_SECRET" {
   reference = "SUPER_SECRET"
 }
 
-resource "secret" "MY_SECRET" {
-  reference = "MY_SECRET"
+resource "secret" "BIG_SECRET" {
+  reference = "BIG_SECRET"
 }
