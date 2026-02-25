@@ -24,6 +24,18 @@ resource "lab" "main" {
   }
 }
 
-resource "secret" "secret-1" {
-  reference = "secret-1"
+resource "secret" "MY_SECRET" {
+  reference = "MY_SECRET"
+}
+
+resource "secret" "username" {
+  reference = "username"
+}
+
+resource "secret" "SUPER_SECRET" {
+  reference = "SUPER_SECRET"
+}
+
+resource "secret" "MY_SECRET" {
+  reference = "MY_SECRET"
 }
