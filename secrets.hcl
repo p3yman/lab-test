@@ -7,6 +7,3 @@ resource "secret" "Test_Test" {
   reference = "Test_Test"
 }
 
-resource "secret" "seeeeee" {
-  reference = "seeeeee"
-}
