@@ -22,20 +22,17 @@ resource "lab" "main" {
       show_stop = true
     }
   }
+  content {
+    chapter "__default" {
+      title = "Default"
+      page "untitled-page-1" {
+        title     = "Untitled page 1"
+        reference = resource.page.untitled-page-1
+      }
+    }
+  }
 }
 
-resource "secret" "MY_SECRET" {
-  reference = "MY_SECRET"
-}
 
-resource "secret" "username" {
-  reference = "username"
-}
 
-resource "secret" "SUPER_SECRET" {
-  reference = "SUPER_SECRET"
-}
 
-resource "secret" "BIG_SECRET" {
-  reference = "BIG_SECRET"
-}
