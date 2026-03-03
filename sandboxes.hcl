@@ -16,7 +16,7 @@ resource "container" "container1" {
     memory = 256
   }
   run_as {
-    user  = "root"
-    group = "root"
+    user  = resource.secret.SUPER_SECRET
+    group = resource.secret.PEM_TWO
   }
 }
