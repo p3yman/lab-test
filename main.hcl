@@ -1,6 +1,6 @@
 resource "lab" "main" {
   title       = "sadasdasdasdsada"
-  description = "De"
+  description = resource.secret.SUPER_SECRET.value
 
   layout = resource.layout.single_panel
 
